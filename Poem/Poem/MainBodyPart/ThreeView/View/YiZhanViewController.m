@@ -164,24 +164,13 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    CommentViewController * commentVC = [[CommentViewController alloc]init];
-    commentVC.topicID = [_dataArr[indexPath.row] topicId];
-//    commentVC.themeLable.text = [_dataArr[indexPath.row] Title];
     
-    GroupCommentViewController * groupVC = [[GroupCommentViewController alloc]init];
-    groupVC.groupID = [_dataArr2[indexPath.row] groupId];
-//    NSLog(@"%@",[_dataArr2[indexPath.row] groupId]);
-    
-    if (indexPath.section == 1) {
+    if (indexPath.section == 0) {
+        //不能写在外面
+        GroupCommentViewController * groupVC = [[GroupCommentViewController alloc]init];
+        groupVC.groupID = [_dataArr2[indexPath.row] groupId];
+        
         //强制在主线程执行
-        dispatch_async(dispatch_get_main_queue(), ^{
-            //使用present会有跳转延迟
-            [self presentViewController:commentVC animated:YES completion:^{
-                
-            }];
-
-        });
-    }else{
         dispatch_async(dispatch_get_main_queue(), ^{
             //使用present会有跳转延迟
             [self presentViewController:groupVC animated:YES completion:^{
@@ -189,8 +178,19 @@
             }];
             
         });
+        
+    }else{
+        CommentViewController * commentVC = [[CommentViewController alloc]init];
+        commentVC.topicID = [_dataArr[indexPath.row] topicId];
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            //使用present会有跳转延迟
+            [self presentViewController:commentVC animated:YES completion:^{
+                
+            }];
+            
+        });
     }
-    
    
 }
 
