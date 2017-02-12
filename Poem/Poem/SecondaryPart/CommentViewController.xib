@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CommentViewController">
+            <connections>
+                <outlet property="tableView" destination="xSu-BD-AiV" id="H8u-bz-uAh"/>
+                <outlet property="textField" destination="tuc-Mc-FN5" id="mMA-Ki-19g"/>
+                <outlet property="themeLable" destination="eL5-p0-lWU" id="WWB-4E-q0b"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="觅知音" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eL5-p0-lWU">
+                    <rect key="frame" x="55" y="25.5" width="260" height="19.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="260" id="cRv-rE-IS2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TCA-dO-YDy">
+                    <rect key="frame" x="8" y="60" width="359" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="3tv-Ky-RNh"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCf-lt-Oeq">
+                    <rect key="frame" x="10" y="15" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="6wf-No-S6t"/>
+                    </constraints>
+                    <state key="normal" image="ic_back"/>
+                    <connections>
+                        <action selector="backClick:" destination="-1" eventType="touchUpInside" id="kbw-Zy-1gZ"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder=" 点击输入文字" textAlignment="natural" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="tuc-Mc-FN5">
+                    <rect key="frame" x="5" y="602" width="365" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="re7-RR-F5D"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xSu-BD-AiV">
+                    <rect key="frame" x="15" y="61" width="345" height="539"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="TCA-dO-YDy" secondAttribute="trailing" constant="8" id="1G0-e2-0HI"/>
+                <constraint firstItem="QCf-lt-Oeq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="2ZT-FA-sk5"/>
+                <constraint firstItem="eL5-p0-lWU" firstAttribute="centerY" secondItem="QCf-lt-Oeq" secondAttribute="centerY" id="34P-UF-HEy"/>
+                <constraint firstAttribute="trailing" secondItem="xSu-BD-AiV" secondAttribute="trailing" constant="15" id="3Nj-6c-sPP"/>
+                <constraint firstItem="tuc-Mc-FN5" firstAttribute="top" secondItem="xSu-BD-AiV" secondAttribute="bottom" constant="2" id="6ww-aB-Ygs"/>
+                <constraint firstItem="xSu-BD-AiV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="7Fy-KE-mWW"/>
+                <constraint firstAttribute="trailing" secondItem="tuc-Mc-FN5" secondAttribute="trailing" constant="5" id="EKb-vW-7jU"/>
+                <constraint firstItem="eL5-p0-lWU" firstAttribute="leading" secondItem="QCf-lt-Oeq" secondAttribute="trailing" constant="5" id="Fpy-Wy-rNM"/>
+                <constraint firstAttribute="bottom" secondItem="tuc-Mc-FN5" secondAttribute="bottom" constant="5" id="QHw-9n-hqa"/>
+                <constraint firstItem="TCA-dO-YDy" firstAttribute="top" secondItem="QCf-lt-Oeq" secondAttribute="bottom" constant="5" id="S6D-so-eNw"/>
+                <constraint firstItem="TCA-dO-YDy" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="60" id="eL5-y1-mvS"/>
+                <constraint firstItem="TCA-dO-YDy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="f0j-Se-QNp"/>
+                <constraint firstItem="tuc-Mc-FN5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="5" id="gSM-CW-o0d"/>
+                <constraint firstItem="xSu-BD-AiV" firstAttribute="top" secondItem="TCA-dO-YDy" secondAttribute="bottom" id="oG1-fh-fuB"/>
+                <constraint firstItem="QCf-lt-Oeq" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="15" id="oKH-cQ-RV9"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_back" width="24" height="24"/>
+    </resources>
+</document>
