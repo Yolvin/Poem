@@ -151,11 +151,11 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QJB-lA-zyq">
                         <rect key="frame" x="0.0" y="0.0" width="468" height="403"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JhB-uz-JOr">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JhB-uz-JOr">
                                 <rect key="frame" x="20" y="0.0" width="428" height="368"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="jfsdkfjslfjlfjj积分撒娇了房价是否记录附件是对方考虑进来尽量快点上飞机离开健身房大家科技开发手机发空间上反倒是快放假积分级附加赛的fjs">
+                                    <fragment content="qqqqq">
                                         <attributes>
                                             <color key="NSColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                             <font key="NSFont" size="15" name="STKaiti"/>

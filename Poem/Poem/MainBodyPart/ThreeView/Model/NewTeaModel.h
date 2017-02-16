@@ -54,4 +54,11 @@
 @property(nonatomic,strong)NSString * createdTime;
 //内容
 @property(nonatomic,strong)NSString * content;
+
+//群聊成员头像
+@property(nonatomic,strong)NSString * portrait;
+
+@property(nonatomic,strong)NSString *  nickname;
+
+@property(nonatomic,strong)NSString *  userId;
 @end

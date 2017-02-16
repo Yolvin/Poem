@@ -45,7 +45,7 @@
     
     self.manager.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"text/plain"];
     
-    [self.manager GET:NEWTEAURL(1, 1,28) parameters:nil progress:^(NSProgress * _Nonnull downloadProgress) {
+    [self.manager GET:NEWTEAURL(1, 1,20) parameters:nil progress:^(NSProgress * _Nonnull downloadProgress) {
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         
@@ -134,8 +134,10 @@
     if (section == 0) {
         return _dataArr2.count;
         
-    }else
+    }else{
+        NSLog(@"%lu",(unsigned long)_dataArr.count);
         return _dataArr.count;
+    }
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
@@ -144,6 +146,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     if (indexPath.section == 0) {
+        //今日热议
         NewTeaTableViewCell * cell = [NewTeaTableViewCell tempTableViewCellWith:tableView indexPath:1];
         cell.model = _dataArr2[indexPath.row];
         if (indexPath.row != 0) {
@@ -152,6 +155,7 @@
         return cell;
         
     }else{
+        //今日新茶
         NewTeaTableViewCell * cell = [NewTeaTableViewCell tempTableViewCellWith:tableView indexPath:0];
         cell.model = _dataArr[indexPath.row];
         
@@ -164,6 +168,8 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    
     
     if (indexPath.section == 0) {
         //不能写在外面
@@ -191,6 +197,7 @@
             
         });
     }
+    
    
 }
 

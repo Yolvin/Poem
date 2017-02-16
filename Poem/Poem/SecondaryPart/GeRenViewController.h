@@ -10,4 +10,5 @@
 
 @interface GeRenViewController : UIViewController
 @property(nonatomic,strong)NSString * userID;
+
 @end

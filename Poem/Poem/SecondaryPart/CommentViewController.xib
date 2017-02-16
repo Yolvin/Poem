@@ -23,7 +23,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="觅知音" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eL5-p0-lWU">
-                    <rect key="frame" x="55" y="25.5" width="260" height="19.5"/>
+                    <rect key="frame" x="55" y="25" width="260" height="20"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="260" id="cRv-rE-IS2"/>
                     </constraints>

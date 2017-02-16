@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A0E07041E5577BE004C1D5A /* DetailGeRenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0E07021E5577BE004C1D5A /* DetailGeRenViewController.m */; };
+		0A0E07051E5577BE004C1D5A /* DetailGeRenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A0E07031E5577BE004C1D5A /* DetailGeRenViewController.xib */; };
+		0A0E075C1E559544004C1D5A /* ShiJiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0E075A1E559544004C1D5A /* ShiJiViewController.m */; };
+		0A0E075D1E559544004C1D5A /* ShiJiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A0E075B1E559544004C1D5A /* ShiJiViewController.xib */; };
+		0A0E07611E5596F0004C1D5A /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0E075F1E5596F0004C1D5A /* CollectionViewCell.m */; };
+		0A0E07621E5596F0004C1D5A /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A0E07601E5596F0004C1D5A /* CollectionViewCell.xib */; };
+		0AB2C3131E54501000A18273 /* GroupMemBersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB2C3111E54501000A18273 /* GroupMemBersViewController.m */; };
+		0AB2C3141E54501000A18273 /* GroupMemBersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AB2C3121E54501000A18273 /* GroupMemBersViewController.xib */; };
 		7002ECF51E1E54BB00996A03 /* XiaoSheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7002ECF31E1E54BB00996A03 /* XiaoSheViewController.m */; };
 		7002ECF61E1E54BB00996A03 /* XiaoSheViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7002ECF41E1E54BB00996A03 /* XiaoSheViewController.xib */; };
 		7007D7161E076D810064DD73 /* MiZhiYinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7007D7151E076D810064DD73 /* MiZhiYinView.m */; };
@@ -72,6 +80,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A0E07011E5577BE004C1D5A /* DetailGeRenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailGeRenViewController.h; sourceTree = "<group>"; };
+		0A0E07021E5577BE004C1D5A /* DetailGeRenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailGeRenViewController.m; sourceTree = "<group>"; };
+		0A0E07031E5577BE004C1D5A /* DetailGeRenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailGeRenViewController.xib; sourceTree = "<group>"; };
+		0A0E07591E559544004C1D5A /* ShiJiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShiJiViewController.h; sourceTree = "<group>"; };
+		0A0E075A1E559544004C1D5A /* ShiJiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShiJiViewController.m; sourceTree = "<group>"; };
+		0A0E075B1E559544004C1D5A /* ShiJiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShiJiViewController.xib; sourceTree = "<group>"; };
+		0A0E075E1E5596F0004C1D5A /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		0A0E075F1E5596F0004C1D5A /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		0A0E07601E5596F0004C1D5A /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		0AB2C3101E54501000A18273 /* GroupMemBersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupMemBersViewController.h; sourceTree = "<group>"; };
+		0AB2C3111E54501000A18273 /* GroupMemBersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupMemBersViewController.m; sourceTree = "<group>"; };
+		0AB2C3121E54501000A18273 /* GroupMemBersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupMemBersViewController.xib; sourceTree = "<group>"; };
 		7002ECF21E1E54BB00996A03 /* XiaoSheViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiaoSheViewController.h; sourceTree = "<group>"; };
 		7002ECF31E1E54BB00996A03 /* XiaoSheViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiaoSheViewController.m; sourceTree = "<group>"; };
 		7002ECF41E1E54BB00996A03 /* XiaoSheViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XiaoSheViewController.xib; sourceTree = "<group>"; };
@@ -84,9 +104,9 @@
 		701E7D571E14E21B00C0E18B /* GroupCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupCommentViewController.h; sourceTree = "<group>"; };
 		701E7D581E14E21B00C0E18B /* GroupCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupCommentViewController.m; sourceTree = "<group>"; };
 		701E7D591E14E21B00C0E18B /* GroupCommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupCommentViewController.xib; sourceTree = "<group>"; };
-		7023F3D71E27989A009AE2C0 /* GeRenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeRenViewController.h; sourceTree = "<group>"; };
-		7023F3D81E27989A009AE2C0 /* GeRenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeRenViewController.m; sourceTree = "<group>"; };
-		7023F3D91E27989A009AE2C0 /* GeRenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeRenViewController.xib; sourceTree = "<group>"; };
+		7023F3D71E27989A009AE2C0 /* GeRenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeRenViewController.h; path = ../SecondaryPart/GeRenViewController.h; sourceTree = "<group>"; };
+		7023F3D81E27989A009AE2C0 /* GeRenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeRenViewController.m; path = ../SecondaryPart/GeRenViewController.m; sourceTree = "<group>"; };
+		7023F3D91E27989A009AE2C0 /* GeRenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GeRenViewController.xib; path = ../SecondaryPart/GeRenViewController.xib; sourceTree = "<group>"; };
 		7025236E1E160D7800B0B38C /* QingChaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QingChaViewController.h; sourceTree = "<group>"; };
 		7025236F1E160D7800B0B38C /* QingChaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QingChaViewController.m; sourceTree = "<group>"; };
 		702523701E160D7800B0B38C /* QingChaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QingChaViewController.xib; sourceTree = "<group>"; };
@@ -180,6 +200,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A0E07001E557747004C1D5A /* ForthPart(GeRen) */ = {
+			isa = PBXGroup;
+			children = (
+				0A0E07011E5577BE004C1D5A /* DetailGeRenViewController.h */,
+				0A0E07021E5577BE004C1D5A /* DetailGeRenViewController.m */,
+				0A0E07031E5577BE004C1D5A /* DetailGeRenViewController.xib */,
+				0A0E07591E559544004C1D5A /* ShiJiViewController.h */,
+				0A0E075A1E559544004C1D5A /* ShiJiViewController.m */,
+				0A0E075B1E559544004C1D5A /* ShiJiViewController.xib */,
+				0A0E075E1E5596F0004C1D5A /* CollectionViewCell.h */,
+				0A0E075F1E5596F0004C1D5A /* CollectionViewCell.m */,
+				0A0E07601E5596F0004C1D5A /* CollectionViewCell.xib */,
+			);
+			path = "ForthPart(GeRen)";
+			sourceTree = "<group>";
+		};
+		0AB2C30F1E544F8500A18273 /* ThirdaryPart */ = {
+			isa = PBXGroup;
+			children = (
+				7023F3D71E27989A009AE2C0 /* GeRenViewController.h */,
+				7023F3D81E27989A009AE2C0 /* GeRenViewController.m */,
+				7023F3D91E27989A009AE2C0 /* GeRenViewController.xib */,
+				0AB2C3101E54501000A18273 /* GroupMemBersViewController.h */,
+				0AB2C3111E54501000A18273 /* GroupMemBersViewController.m */,
+				0AB2C3121E54501000A18273 /* GroupMemBersViewController.xib */,
+			);
+			path = ThirdaryPart;
+			sourceTree = "<group>";
+		};
 		701E7D511E14E1CF00C0E18B /* SecondaryPart */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,9 +244,6 @@
 				7002ECF21E1E54BB00996A03 /* XiaoSheViewController.h */,
 				7002ECF31E1E54BB00996A03 /* XiaoSheViewController.m */,
 				7002ECF41E1E54BB00996A03 /* XiaoSheViewController.xib */,
-				7023F3D71E27989A009AE2C0 /* GeRenViewController.h */,
-				7023F3D81E27989A009AE2C0 /* GeRenViewController.m */,
-				7023F3D91E27989A009AE2C0 /* GeRenViewController.xib */,
 			);
 			path = SecondaryPart;
 			sourceTree = "<group>";
@@ -245,6 +291,8 @@
 				70A1C00C1E00DE6A003D08F4 /* FirstInput */,
 				70A1C0151E00DE8D003D08F4 /* MainBodyPart */,
 				701E7D511E14E1CF00C0E18B /* SecondaryPart */,
+				0AB2C30F1E544F8500A18273 /* ThirdaryPart */,
+				0A0E07001E557747004C1D5A /* ForthPart(GeRen) */,
 				704F8C501DFF8A7C00B5A4FD /* ViewController.h */,
 				704F8C511DFF8A7C00B5A4FD /* ViewController.m */,
 				704F8C531DFF8A7C00B5A4FD /* Main.storyboard */,
@@ -506,12 +554,16 @@
 			files = (
 				702523721E160D7800B0B38C /* QingChaViewController.xib in Resources */,
 				70A1C01C1E00F1B0003D08F4 /* ziti.ttf in Resources */,
+				0A0E075D1E559544004C1D5A /* ShiJiViewController.xib in Resources */,
 				704F8C5D1DFF8A7C00B5A4FD /* LaunchScreen.storyboard in Resources */,
 				701E7D561E14E1CF00C0E18B /* CommentViewController.xib in Resources */,
 				704F8C5A1DFF8A7C00B5A4FD /* Assets.xcassets in Resources */,
+				0A0E07621E5596F0004C1D5A /* CollectionViewCell.xib in Resources */,
 				70AE49051E03CCC30007776E /* FuJianView.xib in Resources */,
+				0AB2C3141E54501000A18273 /* GroupMemBersViewController.xib in Resources */,
 				704F8C551DFF8A7C00B5A4FD /* Main.storyboard in Resources */,
 				7007D7181E076D9F0064DD73 /* MiZhiYinView.xib in Resources */,
+				0A0E07051E5577BE004C1D5A /* DetailGeRenViewController.xib in Resources */,
 				701E7D5B1E14E21B00C0E18B /* GroupCommentViewController.xib in Resources */,
 				70F9C8A11E22264D00E9736A /* leftMenu.xib in Resources */,
 				7023F3DB1E27989A009AE2C0 /* GeRenViewController.xib in Resources */,
@@ -593,6 +645,7 @@
 			files = (
 				704F8C521DFF8A7C00B5A4FD /* ViewController.m in Sources */,
 				70F9C89F1E2225B700E9736A /* leftMenu.m in Sources */,
+				0A0E07611E5596F0004C1D5A /* CollectionViewCell.m in Sources */,
 				708F9BF81E026C610012784E /* UIImageView+Header.m in Sources */,
 				7036A9CC1E0A95800094EC89 /* XiaoSheView.m in Sources */,
 				708CBB271E1113E90009FC5E /* YiZhanViewController.m in Sources */,
@@ -601,6 +654,7 @@
 				704F8C4F1DFF8A7C00B5A4FD /* AppDelegate.m in Sources */,
 				70A1C00F1E00DE6A003D08F4 /* FirstViewController.m in Sources */,
 				701E7D551E14E1CF00C0E18B /* CommentViewController.m in Sources */,
+				0A0E07041E5577BE004C1D5A /* DetailGeRenViewController.m in Sources */,
 				7007D7161E076D810064DD73 /* MiZhiYinView.m in Sources */,
 				704F8C581DFF8A7C00B5A4FD /* Poem.xcdatamodeld in Sources */,
 				702DDE0F1E0BC3A8001ED99B /* NSString+Switch.m in Sources */,
@@ -608,7 +662,9 @@
 				708F9BF71E026C610012784E /* UIImage+Circle.m in Sources */,
 				7023F3DA1E27989A009AE2C0 /* GeRenViewController.m in Sources */,
 				70AE49041E03CCC30007776E /* FuJianView.m in Sources */,
+				0A0E075C1E559544004C1D5A /* ShiJiViewController.m in Sources */,
 				70AE49021E03CCC30007776E /* NewTeaTableViewCell.m in Sources */,
+				0AB2C3131E54501000A18273 /* GroupMemBersViewController.m in Sources */,
 				704F8C4C1DFF8A7C00B5A4FD /* main.m in Sources */,
 				70A1C0141E00DE73003D08F4 /* UIView+ViewCategory.m in Sources */,
 				7002ECF51E1E54BB00996A03 /* XiaoSheViewController.m in Sources */,

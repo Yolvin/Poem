@@ -7,6 +7,9 @@
 //
 
 #import "GroupCommentViewController.h"
+#import "XiaoSheViewController.h"
+#import "GeRenViewController.h"
+#import "GroupMemBersViewController.h"
 
 @interface GroupCommentViewController ()
 //用户头像
@@ -84,6 +87,7 @@
     
     
     self.commentLable.attributedText = str;
+    
     self.topicNumLable.text = [NSString stringWithFormat:@"话题: %@",model.topicCount];
     NSString * creatTime = [NSString timeWithTimeIntervalString:model.createdTime];
     self.createTimeLable.text = [NSString stringWithFormat:@"创建时间: %@",creatTime];
@@ -91,6 +95,41 @@
 }
 - (IBAction)backClick:(UIButton *)sender {
     [self dismissViewControllerAnimated:YES completion:^{
+        
+    }];
+}
+//进入小舍
+- (IBAction)enterXiaoShe:(id)sender {
+    XiaoSheViewController * groupVC = [[XiaoSheViewController alloc]init];
+    groupVC.groupID = self.groupID;
+    
+    [self presentViewController:groupVC animated:YES completion:^{
+        
+    }];
+    
+    
+        
+        
+
+}
+//点击进入个人页
+- (IBAction)enterGenRen:(id)sender {
+    GeRenViewController * gerenVC = [[GeRenViewController alloc]init];
+    gerenVC.userID = _model.createdUserId;
+    
+    [self presentViewController:gerenVC animated:YES completion:^{
+        
+    }];
+    
+}
+
+//点击进入群组成员页
+
+- (IBAction)enterGroupMember:(id)sender {
+    GroupMemBersViewController * groupMemVC = [[GroupMemBersViewController alloc]init];
+    groupMemVC.groupId = self.groupID;
+    
+    [self presentViewController:groupMemVC animated:YES completion:^{
         
     }];
 }

@@ -242,7 +242,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yT3-iR-5d1">
-                        <rect key="frame" x="15" y="123" width="350" height="40"/>
+                        <rect key="frame" x="15" y="122" width="350" height="40"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppIcon20x20" translatesAutoresizingMaskIntoConstraints="NO" id="eCa-mY-TWX">
                                 <rect key="frame" x="0.0" y="5" width="30" height="30"/>
@@ -295,10 +295,10 @@
                         </constraints>
                     </view>
                     <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="c2H-kS-1sU">
-                        <rect key="frame" x="15" y="0.0" width="350" height="113"/>
+                        <rect key="frame" x="15" y="0.0" width="350" height="112"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小亚运" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fO-CA-C3Y">
-                        <rect key="frame" x="15" y="47" width="350" height="20"/>
+                        <rect key="frame" x="15" y="46" width="350" height="20"/>
                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
@@ -327,11 +327,66 @@
             </connections>
             <point key="canvasLocation" x="67" y="578"/>
         </tableViewCell>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TempTableViewCellForth" rowHeight="81" id="hli-FR-ixk" userLabel="TempTableViewCellForth" customClass="NewTeaTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="373" height="81"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hli-FR-ixk" id="Tr9-0a-A5M">
+                <rect key="frame" x="0.0" y="0.0" width="373" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GR3-q6-rqE">
+                        <rect key="frame" x="15" y="15" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="dIS-Lh-D0V"/>
+                            <constraint firstAttribute="width" constant="40" id="qWW-vv-3Ge"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kmC-eH-cEf">
+                        <rect key="frame" x="12" y="77.5" width="349" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="UdV-yh-mxl"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小小明" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gog-w1-gs7">
+                        <rect key="frame" x="75" y="26.5" width="46" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9Z-vj-OUP">
+                        <rect key="frame" x="323" y="7" width="40" height="56"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="Jvi-XE-pj2"/>
+                            <constraint firstAttribute="height" constant="56" id="UlH-Df-fcj"/>
+                        </constraints>
+                        <state key="normal" image="go"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="GR3-q6-rqE" firstAttribute="top" secondItem="Tr9-0a-A5M" secondAttribute="top" constant="15" id="A8x-jl-7dS"/>
+                    <constraint firstAttribute="bottom" secondItem="kmC-eH-cEf" secondAttribute="bottom" constant="2" id="aWs-OD-kHp"/>
+                    <constraint firstItem="GR3-q6-rqE" firstAttribute="leading" secondItem="Tr9-0a-A5M" secondAttribute="leading" constant="15" id="bPj-SL-LgX"/>
+                    <constraint firstItem="kmC-eH-cEf" firstAttribute="leading" secondItem="Tr9-0a-A5M" secondAttribute="leading" constant="12" id="c4q-3F-dOq"/>
+                    <constraint firstItem="Gog-w1-gs7" firstAttribute="centerY" secondItem="GR3-q6-rqE" secondAttribute="centerY" id="eL0-hy-fsc"/>
+                    <constraint firstAttribute="trailing" secondItem="kmC-eH-cEf" secondAttribute="trailing" constant="12" id="lVx-Sr-LfJ"/>
+                    <constraint firstAttribute="trailing" secondItem="a9Z-vj-OUP" secondAttribute="trailing" constant="10" id="rSe-CI-ey5"/>
+                    <constraint firstItem="Gog-w1-gs7" firstAttribute="leading" secondItem="GR3-q6-rqE" secondAttribute="trailing" constant="20" id="wb4-o5-jyP"/>
+                    <constraint firstItem="a9Z-vj-OUP" firstAttribute="centerY" secondItem="GR3-q6-rqE" secondAttribute="centerY" id="zbD-gb-sMQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="ForthNameLable" destination="Gog-w1-gs7" id="8yg-yU-FWo"/>
+                <outlet property="ForthPoraitImageView" destination="GR3-q6-rqE" id="KLK-yB-b1U"/>
+            </connections>
+            <point key="canvasLocation" x="63.5" y="817.5"/>
+        </tableViewCell>
     </objects>
     <resources>
         <image name="AppIcon20x20" width="20" height="20"/>
         <image name="cell_mei" width="43" height="37"/>
         <image name="commentNUm" width="15" height="15"/>
+        <image name="go" width="16" height="16"/>
         <image name="viewNUm" width="20" height="20"/>
         <image name="zhishitiao" width="205" height="47"/>
     </resources>

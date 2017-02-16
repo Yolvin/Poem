@@ -143,9 +143,7 @@
     sender.selected = !sender.selected;
     int a = [_model.praise intValue];
     [self.approveButton setTitle:[NSString stringWithFormat:@"%d",a+1] forState:UIControlStateSelected];
-//    if (sender.selected) {
-//        <#statements#>
-//    }
+
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

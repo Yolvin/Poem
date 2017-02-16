@@ -30,6 +30,10 @@
 @property (weak, nonatomic) IBOutlet UIButton *XiaoViewButton;
 @property (weak, nonatomic) IBOutlet UIButton *XiaoCommentButton;
 
+//第四个
+@property (weak, nonatomic) IBOutlet UIImageView *ForthPoraitImageView;
+
+@property (weak, nonatomic) IBOutlet UILabel *ForthNameLable;
 
 
 @end
@@ -88,6 +92,9 @@
      [self.XiaoViewButton setTitle:[NSString stringWithFormat:@"%@",model.memberCount] forState:UIControlStateNormal];
     [self.XiaoCommentButton setTitle:[NSString stringWithFormat:@"%@",model.topicCount] forState:UIControlStateNormal];
   
+    //第四个
+    [self.ForthPoraitImageView setHeader:model.portrait];
+    self.ForthNameLable.text = model.nickname;
     
 }
 
@@ -108,6 +115,11 @@
         case 2:
             identifier = @"TempTableViewCellThird";
             index = 2;
+            break;
+            
+        case 3:
+            identifier = @"TempTableViewCellForth";
+            index = 3;
             break;
             
         default:

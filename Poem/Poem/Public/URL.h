@@ -42,4 +42,12 @@
 //http://kkpoembbs.duowan.com/api/group/topicList.do?groupId=3b76f34d3f2b4f239a990aed2ef1c2e3&pageNo=1&pageSize=10
 #define XIAOSHEDETAILURL(groupID) [NSString stringWithFormat:@"http://kkpoembbs.duowan.com/api/group/topicList.do?groupId=%@&pageNo=1&pageSize=10",groupID]
 
+//个人主页
+//http://kkpoembbs.duowan.com/api/profile/userInfo.do?fuid=f065bc1d827d45028718a9d0b3216a13
+#define GERENURL(userId) [NSString stringWithFormat:@"http://kkpoembbs.duowan.com/api/profile/userInfo.do?fuid=%@",userId]
+
+//群聊成员
+//http://kkpoembbs.duowan.com/api/im/getGroupMembers.do?groupId=dc0c72bc40be4114a15c0339b169452a&pageNo=2&pageSize=10
+#define MEMBERSURL(groupId,pageNo) [NSString stringWithFormat:@"http://kkpoembbs.duowan.com/api/im/getGroupMembers.do?groupId=%@&pageNo=%d&pageSize=10",groupId,pageNo]
+
 #endif /* URL_h */
